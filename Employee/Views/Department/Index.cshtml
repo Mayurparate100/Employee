@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<script src="~/Content/jquery-3.6.0.js"></script>
+<script src="~/Department.js"></script>
+
+<h2>Index</h2>
+<label>DptName</label>
+<input id="txtDptName" type="text" class="form-control" />
+<label>EmpName</label>
+<input id="txtEmpName" type="text" class="form-control" />
+<label>EmpSalary</label>
+<input id="txtEmpSalary" type="text" class="form-control" />
+<label>EmpContact</label>
+<input id="txtEmpContact" type="text" class="form-control" />
+<label>EmpCity</label>
+<input id="txtCity" type="text" class="form-control" />
+<input id="Button1" type="button" value="submit" onclick="saveDepartment()" />
+
+<table id="tblDepartment" border="1">
+    <thead>
+        <th>Id</th>
+<th>DptName</th>
+    <th>EmpName</th>
+    <th>EmpsSalary</th>
+    <th>EmpContact</th>
+    <th>EmpCity</th>
+       </thead>
+    <tbody></tbody>
+    </table>
